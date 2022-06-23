@@ -1,6 +1,8 @@
 var welcomeContainer = document.querySelector('.welcome-container');
 var secondContainer = document.querySelector('.second-container');
-var thirdContainer = document.querySelector('.third-container')
+var thirdContainer = document.querySelector('.third-container');
+var fourthAContainer = document.querySelector('.fourth-a-container');
+var fourthBContainer = document.querySelector('.fourth-b-container');
 
 var welcomeButton = document.querySelector('.welcome-btn');
 
@@ -28,11 +30,13 @@ casualButton.addEventListener('click', function(){
     casualButton.style.color = 'green';
     adultButton.style.color = 'black';
     thirdContainer.style.display = 'none';
+    fourthAContainer.style.display = 'flex';
 })
 adultButton.addEventListener('click', function(){
     adultButton.style.color = 'green';
     casualButton.style.color = 'black';
     thirdContainer.style.display = 'none';
+    fourthBContainer.style.display = 'flex';
 })
 
 
